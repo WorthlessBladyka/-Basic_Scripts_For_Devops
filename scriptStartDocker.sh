@@ -1,8 +1,7 @@
 #! /bin/bash
 
 set -e
-
-if ! grep -qEi "Ubuntu|Debian" /etc/os-release; then
+if ! grep -qE "Ubuntu|Debian" /etc/os-release; then
   echo "Этот скрипт преднaзначен для систем на базе Ubuntu и Debian!"
   exit 1
 fi
@@ -10,7 +9,7 @@ fi
 sudo apt-get update
 sudo apt-get install ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
-if ! grep -qie "Ubuntu" /etc/os-release; then
+if grep -qe "Ubuntu" /etc/os-release; then
   sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 else
   sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
@@ -18,7 +17,7 @@ fi
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 
 # Add the repository to Apt sources:
-if ! grep -qie "Ubuntu" /etc/os-release; then
+if grep -qe "Ubuntu" /etc/os-release; then
   echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
   $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
