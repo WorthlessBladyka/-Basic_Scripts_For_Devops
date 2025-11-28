@@ -100,3 +100,14 @@ $ docker-compose up --scale counter=2
         
 - "8080:8080"  # СТАТИЧЕСКИЙ порт - ошибка при масштабировании!
 ```
+
+### 11111111 MAIN
+```
+docker compose --file ~/.config/winapps/compose.yaml start # Power on the Windows VM
+docker compose --file ~/.config/winapps/compose.yaml pause # Pause the Windows VM
+docker compose --file ~/.config/winapps/compose.yaml unpause # Resume the Windows VM
+docker compose --file ~/.config/winapps/compose.yaml restart # Restart the Windows VM
+docker compose --file ~/.config/winapps/compose.yaml stop # Gracefully shut down the Windows VM
+docker compose --file ~/.config/winapps/compose.yaml kill # Force shut down the Windows VM
+```
+###

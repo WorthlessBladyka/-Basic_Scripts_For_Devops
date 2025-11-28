@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "e8731d12ecad2bde",
+    "type": "split",
+    "children": [
+      {
+        "id": "18b5956f3465d98a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffc96dc1e7e3f124",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTMLandCSS/0) Nodebook.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0) Nodebook"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "77c6dd893d1992d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9435f3c184d9791",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a8a8597730333bb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0cf0d81e6e825f2b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "9e6018eb67c3bd87",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d71eba397ca49877",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c6b55f09f49b617",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d858ad6055fb257c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "e8456471d0501f99",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "5814e1440f09cd11",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "5cceeb075531914b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "3bbfffdd988dd636",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ffc96dc1e7e3f124",
+  "lastOpenFiles": [
+    "!Botton-and-input.md",
+    "HTMLandCSS/0) Nodebook.md",
+    "HTMLandCSS/0) Notebook.md",
+    "HTMLandCSS/Images/20251127_220538.jpg",
+    "HTMLandCSS/Images/20251127_221107.jpg",
+    "HTMLandCSS/Images/20251127_221150.jpg",
+    "HTMLandCSS/Images/20251127_221135.jpg",
+    "HTMLandCSS/Images/20251127_220411.jpg",
+    "DEVOPS/Posrassql/Images/Снимок экрана 2025-11-25 в 12.43.43 PM.png",
+    "HTMLandCSS/Images/20251127_221147.jpg",
+    "HTMLandCSS/Images/20251127_221124.jpg",
+    "HTMLandCSS/Images/20251127_221117.jpg",
+    "HTMLandCSS/Images/20251127_221110.jpg",
+    "HTMLandCSS/Images",
+    "DEVOPS/Posrassql/0) Commands.md",
+    "HTMLandCSS",
+    "DEVOPS/Posrassql/4) Внешний ключ и Сопоставление данных.md",
+    "DEVOPS/Posrassql/3) USERS ROLE.md",
+    "DEVOPS/Posrassql/1) JOIN.md",
+    "DEVOPS/Posrassql/2) Import table.md",
+    "DEVOPS/Posrassql/0) Commands common util.md",
+    "DEVOPS/Linux/Settings-User-Group-Role.md",
+    "DEVOPS/Docker/Docker-command.md",
+    "DEVOPS/Ansible/8) Role.md",
+    "DEVOPS/Posrassql/Images",
+    "DEVOPS/Ansible/7) loops and with.md",
+    "DEVOPS/Ansible/5) Variables.md",
+    "DEVOPS/Ansible/6) Conditionals.md",
+    "DEVOPS/Ansible/3) Playbook.md",
+    "DEVOPS/Posrassql/Базы данных.md",
+    "DEVOPS/Docker/Docker-compose.md",
+    "DEVOPS/Linux/Mount HDD-last on linux.md",
+    "DEVOPS/Linux/Download.md",
+    "DEVOPS/Linux/Работа с пакетами.md",
+    "DEVOPS/Linux/5) Debug.md",
+    "DEVOPS/Linux/4) Операторы.md",
+    "DEVOPS/Linux/3) Monitoring system.md",
+    "DEVOPS/Linux/1) Basic commands.md",
+    "DEVOPS/Posrassql",
+    "интересно.md",
+    "ROS/lesson_1_image",
+    "Python/image",
+    "NETWORK/images",
+    "CPP/Image",
+    "2) English/image",
+    "ROS"
+  ]
+}
