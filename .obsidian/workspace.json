@@ -11,14 +11,10 @@
             "id": "ffc96dc1e7e3f124",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTMLandCSS/0) Nodebook.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "0) Nodebook"
+              "title": "New tab"
             }
           }
         ]
@@ -61,7 +57,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 269.5
   },
   "right": {
     "id": "d71eba397ca49877",
@@ -180,53 +176,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "ffc96dc1e7e3f124",
+  "active": "8a8a8597730333bb",
   "lastOpenFiles": [
-    "!Botton-and-input.md",
-    "HTMLandCSS/0) Nodebook.md",
-    "HTMLandCSS/0) Notebook.md",
-    "HTMLandCSS/Images/20251127_220538.jpg",
-    "HTMLandCSS/Images/20251127_221107.jpg",
-    "HTMLandCSS/Images/20251127_221150.jpg",
-    "HTMLandCSS/Images/20251127_221135.jpg",
-    "HTMLandCSS/Images/20251127_220411.jpg",
-    "DEVOPS/Posrassql/Images/Снимок экрана 2025-11-25 в 12.43.43 PM.png",
-    "HTMLandCSS/Images/20251127_221147.jpg",
-    "HTMLandCSS/Images/20251127_221124.jpg",
-    "HTMLandCSS/Images/20251127_221117.jpg",
-    "HTMLandCSS/Images/20251127_221110.jpg",
-    "HTMLandCSS/Images",
-    "DEVOPS/Posrassql/0) Commands.md",
-    "HTMLandCSS",
-    "DEVOPS/Posrassql/4) Внешний ключ и Сопоставление данных.md",
-    "DEVOPS/Posrassql/3) USERS ROLE.md",
-    "DEVOPS/Posrassql/1) JOIN.md",
-    "DEVOPS/Posrassql/2) Import table.md",
-    "DEVOPS/Posrassql/0) Commands common util.md",
-    "DEVOPS/Linux/Settings-User-Group-Role.md",
-    "DEVOPS/Docker/Docker-command.md",
-    "DEVOPS/Ansible/8) Role.md",
-    "DEVOPS/Posrassql/Images",
-    "DEVOPS/Ansible/7) loops and with.md",
-    "DEVOPS/Ansible/5) Variables.md",
-    "DEVOPS/Ansible/6) Conditionals.md",
-    "DEVOPS/Ansible/3) Playbook.md",
-    "DEVOPS/Posrassql/Базы данных.md",
-    "DEVOPS/Docker/Docker-compose.md",
-    "DEVOPS/Linux/Mount HDD-last on linux.md",
-    "DEVOPS/Linux/Download.md",
-    "DEVOPS/Linux/Работа с пакетами.md",
-    "DEVOPS/Linux/5) Debug.md",
-    "DEVOPS/Linux/4) Операторы.md",
-    "DEVOPS/Linux/3) Monitoring system.md",
-    "DEVOPS/Linux/1) Basic commands.md",
-    "DEVOPS/Posrassql",
-    "интересно.md",
-    "ROS/lesson_1_image",
-    "Python/image",
-    "NETWORK/images",
-    "CPP/Image",
-    "2) English/image",
-    "ROS"
+    "Notes/DEVOPS/Posrassql/Images/Снимок экрана 2025-11-25 в 12.44.30 PM.png",
+    "Notes/DEVOPS/Posrassql/Images/Снимок экрана 2025-11-25 в 12.43.43 PM.png",
+    "Notes/DEVOPS/Posrassql/Images/Снимок экрана 2025-11-25 в 12.41.03 PM.png",
+    "Notes/DEVOPS/Posrassql/Images/Снимок экрана 2025-11-25 в 12.40.44 PM.png",
+    "Notes/DEVOPS/Posrassql/Images/Снимок экрана 2025-11-25 в 12.40.25 PM.png",
+    "Notes/DEVOPS/Posrassql/Images/Снимок экрана 2025-11-23 в 6.15.37 PM.png",
+    "Notes/DEVOPS/Posrassql/Images/Снимок экрана 2025-11-23 в 3.50.59 PM.png",
+    "Notes/DEVOPS/Posrassql/Images/Снимок экрана 2025-11-23 в 3.50.39 PM.png",
+    "Notes/DEVOPS/Posrassql/Images/Снимок экрана 2025-11-23 в 3.46.06 PM.png",
+    "Notes/DEVOPS/Posrassql/Images/Снимок экрана 2025-11-23 в 2.19.40 PM.png",
+    "Notes/DEVOPS/Posrassql/Images/Снимок экрана 2025-11-23 в 2.00.50 PM.png",
+    "Notes/DEVOPS/Posrassql/Базы данных.md",
+    "Notes/DEVOPS/Posrassql/Images",
+    "Notes/DEVOPS/Posrassql/4) Внешний ключ и Сопоставление данных.md",
+    "Notes/DEVOPS/Posrassql/3) USERS ROLE.md",
+    "Notes/DEVOPS/Posrassql/2) Import table.md",
+    "Notes/DEVOPS/Posrassql/1) JOIN.md",
+    "Notes/DEVOPS/Posrassql/0) Commands.md",
+    "Notes/DEVOPS/Posrassql/0) Commands common util.md",
+    "Notes/DEVOPS/Linux/Работа с пакетами.md",
+    "Notes/DEVOPS/Linux/Переменные окружения и переменные среды.md",
+    "Notes/DEVOPS/Linux/Static IP and edit name_server.md",
+    "Notes/DEVOPS/Linux/Settings-User-Group-Role.md",
+    "Notes/DEVOPS/Linux/SSH_key_certificat.md",
+    "Notes/DEVOPS/Linux/Mount HDD-last on linux.md",
+    "Notes/DEVOPS/Linux/Download.md",
+    "Notes/DEVOPS/Linux/5) Debug.md",
+    "Notes/DEVOPS/Linux/4) Операторы.md",
+    "Notes/DEVOPS/Linux/3) Monitoring system.md",
+    "Notes/DEVOPS/Linux/2) Network command.md",
+    "Notes/DEVOPS/Linux/1) Basic commands.md",
+    "Notes/DEVOPS/Linux/0_Image",
+    "Notes/DEVOPS/Docker/Тестирование.md",
+    "Notes/DEVOPS/Docker/Теория.md",
+    "Notes/DEVOPS/Docker/images",
+    "Notes/DEVOPS/Docker/Network.md",
+    "Notes/DEVOPS/Docker/Docker-образы.md",
+    "Notes/DEVOPS/Docker/Docker-registry.md",
+    "Notes/DEVOPS/Docker/Docker-compose.md",
+    "Notes/DEVOPS/Ansible/images",
+    "Notes/ROS/lesson_1_image",
+    "Notes/Python/image",
+    "Notes/NETWORK/images",
+    "Notes/HTMLandCSS/Images",
+    "Notes/DEVOPS/images",
+    "Notes/DEVOPS/image YAML"
   ]
 }

@@ -1,7 +1,7 @@
 # Оглавление
 [1) HTTP](#http)
 	[Структура](#структура)
-	[Botton and input](#botton-and-input)
+	[Botton and input](#botton)
 	[Form](#form)
 	[Images](#images)
 	[Start sintaksis](#start-sintaksis)
@@ -31,7 +31,7 @@
 ![[20251127_221150.jpg]]
 ![[20251127_220415.jpg]]
 ![[20251127_220424.jpg]]
-## Botton and input
+## Botton and input {botton}
 ![[20251127_220433.jpg]]
 ## Form
 ![[20251127_220436.jpg]]
