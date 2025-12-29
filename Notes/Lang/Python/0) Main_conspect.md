@@ -10,7 +10,7 @@
 ## Условия
 ![[20250929_102900.jpg]]
 ## Цикл
-![[Python/image/20250929_102903.jpg]]
+![[Notes/Lang/Python/image/20250929_102903.jpg]]
 ## For
 ![[20250929_102908.jpg]]
 ## Function and OOP
@@ -37,7 +37,7 @@ def nameFunction(first_name: str = "Гость")
 ## String
 ![[20250929_102920.jpg]]
 ![[20250929_102922.jpg]]
-![[Python/image/20250929_102928.jpg]]
+![[Notes/Lang/Python/image/20250929_102928.jpg]]
 ## Списки
 ![[20250929_102931.jpg]]
 ##### **Резка списков**
@@ -147,7 +147,7 @@ dictionary.update()
 ## Work with files
 ![[20250929_102954.jpg]]
 ## Побитовые операторы
-![[Python/image/20250929_102957.jpg]]
+![[Notes/Lang/Python/image/20250929_102957.jpg]]
 ![[20250929_103001.jpg]]
 ## Хлам(списки)
 ![[20250929_103004.jpg]]

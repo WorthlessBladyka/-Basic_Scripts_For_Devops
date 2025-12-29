@@ -51,7 +51,11 @@ or
 GRANT - определяет РАЗРЕШЕНИЯ для доступа
 REVOKE - отзывает разрешения
 
+```sql
+	-- grantna
 ```
+
+```sql
 -- Право создавать объекты в конкретной схеме
 GRANT CREATE ON SCHEMA schema_name TO role_name;
 ```

@@ -1,6 +1,6 @@
 ## CREATE and ALTER TABLE
 
-`CREATE DATABASE <name>;` - create database
+`CREATE DATABASE <name_scheme>.<name_table>;` - create database
 
 Типы: 
 - VARCHAR, 
@@ -9,9 +9,6 @@
 - DATE
 ![[Снимок экрана 2025-11-23 в 2.00.50 PM.png]]
 ![[Снимок экрана 2025-11-23 в 2.19.40 PM.png]]
-`\d` - list table
-`\d <name_table>` - input target table
-`\dt <name_table>` - вывести количество полей
 ### DROP and DELETE
 `DROP TABLE <name_table>;` - delete table
 `DELETE FROM <name_table> WHERE id = 1;` - удалить поле со значением id 1

@@ -2,6 +2,10 @@
 `\?` - help
 `\! <пареметры>`  - запуск командной оболочки
 `\l` - list database
+`\dn` - list scheme
+`\d` - list tables
+`\d <name_table>` - input target table
+`\dt <name_table>` - вывести количество полей
 `\conninfo` - common setting DB
 
 `\! pg_dump --version `       # проверить версию pg_dump

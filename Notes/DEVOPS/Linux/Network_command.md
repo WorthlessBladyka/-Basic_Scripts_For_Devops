@@ -1,4 +1,4 @@
-## id addr
+##### ip a
 
 ```
 $ ip addr
@@ -18,7 +18,7 @@ $ ip addr show eth0
 $ ip -4 addr show eth0
 ```
 
-## ping
+##### ping
 
 ```
 $ ping <параметр> 8.8.8.8
@@ -40,7 +40,7 @@ $ ping <параметр> 8.8.8.8
 - **-s** - размер одного пакета;
 - **-t** - установить TTL вручную;
 - **-v** - более подробный вывод.
-## ?! whois, dig, nslookup - домены и IP
+##### ?! whois, dig, nslookup - домены и IP
 
 ```
 $ whois google.com
@@ -73,7 +73,7 @@ $ dig google.com
 ```
 $ nslookup google.com
 ``` 
-## traceroute - маршрут пакета
+##### traceroute - маршрут пакета
 ==Command Traceroute== — это утилита командной строки Linux, используемая для отслеживания пути сетевых пакетов от источника до конечного хоста или IP-адреса.
 ```
 $ traceroute <параметр> <domain/IP-addr>
@@ -92,20 +92,44 @@ $ traceroute <параметр> <domain/IP-addr>
 ![[What-is-Traceroute-Linux-Diagram.jpg]]
 
 
-## ?! curl - скачать код страницы
-## ipсonfig (устарело)
+##### curl - скачать код страницы
+##### ipсonfig (устарело)
 
-## ifdown and ifup - перезагружает сетевые интерфейсы
+##### ifdown and ifup - перезагружает сетевые интерфейсы
 ```
 $ sudo ifdown <название интерфейса>
 
 $ sudo ifup enp0s3
 ```
 
-## netplan
+##### netplan
 
-## ufw - базовая работа с firewall
+##### ufw - базовая работа с firewall
 
-##
+# Setting static IP
 
-##
+``` bash
+		# old method
+ip addr               # смотрим наше название порта
+
+sudo nano /etc/network/interfaces       # дописываем в файл
+	auto enp0s3
+	iface enp0s3 inet static
+		address 20.20.20.20
+		netmask 255.0.0.0
+		gateway 20.20.20.1
+		dns-nameservers 8.8.8.8
+		
+sudo ifdown enp0s3            # перезагружаем интерфейс
+sudo ifup enp0s3
+
+```
+
+``` shell
+cd /etc/netplan/<configFile.yaml>
+			# Открываем и редактируем, шаблон берем с gitHub
+
+sudo chmod 600 <configFile.yaml>
+sudo netplan apply
+
+```
